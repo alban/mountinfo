@@ -1,0 +1,9 @@
+{
+	"ImportPath": "github.com/alban/mountinfo",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v72",
+	"Packages": [
+		"./..."
+	],
+	"Deps": []
+}
