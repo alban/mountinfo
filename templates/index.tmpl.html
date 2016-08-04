@@ -1,0 +1,27 @@
+<html>
+<head>
+<style type="text/css">
+  #container {
+    max-width: 800px;
+    height: 600px;
+    margin: auto;
+  }
+</style>
+</head>
+<body>
+<h1>Graph</h1>
+<div id="container"></div>
+<p>end</p>
+<script src="/static/sigma/sigma.min.js"></script>
+<script src="/static/sigma/plugins/sigma.parsers.json.min.js"></script>
+<!-- https://gist.github.com/alban/2976deb2950d2216b4d1ccf2b7bfd3a9 -->
+<script>
+  sigma.parsers.json('https://gist.githubusercontent.com/alban/2976deb2950d2216b4d1ccf2b7bfd3a9/raw/0ba86890d10f79423eb2ea8b48f1e25fd3a38fe4/data.json', {
+    container: 'container',
+    settings: {
+      defaultNodeColor: '#ec5148'
+    }
+  });
+</script>
+</body>
+</html>
